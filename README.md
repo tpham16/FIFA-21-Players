@@ -17,25 +17,22 @@ The dataset consists of a single CSV (Comma-Separated Values) file named `fifa21
 5. **OVA**: The overall rating of the player in FIFA 2021.
 6. **POT**: The potential rating of the player in FIFA 2021.
 7. **Club**: The club team the player belongs to.
-8. **Contract Type**: The type of contract the player has with the club (e.g., "Youth" or "Professional").
+8. **Contract Type**: The type of contract the player has with the club (Contract or Loan).
 9. **Start Year**: The year the player joined the club.
 10. **End Year**: The year the player left the club (if applicable).
 11. **Positions**: The player's primary playing position(s).
 12. **Height (cm)**: The player's height in centimeters (converted to integer).
 13. **Weight (kg)**: The player's weight in kilograms (converted to integer).
 14. **Preferred Foot**: The player's preferred foot for kicking (left or right).
-15. **BOV**: Best Overall Rating (if applicable).
+15. **BOV**: Best Overall Rating.
 16. **Best Position**: The player's best position in the game (if applicable).
 17. **Joined**: The date the player joined the club.
 18. **Value**: The estimated market value of the player in Euros (cleaned and converted to integer).
 19. **Wage**: The player's weekly wage.
 20. **Release Clause**: The release clause value for the player's contract in Euros (cleaned and converted to integer).
-21. **PAC**: Pace attribute.
-22. **SHO**: Shooting attribute.
-23. **DRI**: Dribbling attribute.
-24. **DEF**: Defensive attributes.
-25. **PHY**: Physical attributes.
-26. **Hits**: Number of hits or interactions related to the player.
+21. **Hits**: Number of hits or interactions related to the player.
+22. **Value for Wage**: This ratio is obtained by dividing the player's "Value" by their "Wage".
+
 
 ## Usage
 
@@ -45,7 +42,7 @@ This cleaned and transformed dataset can be used for various purposes, including
 - Exploring the distribution of player attributes such as age, height, and weight.
 - Investigating the relationship between player attributes and their market values or wages.
 - Visualizing player nationality distribution within the dataset.
-- Conducting statistical analysis or machine learning tasks related to football player data.
+- Highly Valuable but Underpaid players. 
 
 ## Data Source
 
